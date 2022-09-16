@@ -15,6 +15,13 @@ a {
   box-sizing: border-box;
 }
 
+/* https://stackoverflow.com/questions/52508598/html5-video-element-on-iphone-has-border */
+video {
+  -webkit-mask-image: -webkit-radial-gradient(white, black);
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+}
+
 /* @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
