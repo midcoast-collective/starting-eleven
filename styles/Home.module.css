@@ -28,6 +28,13 @@
   display: none;
 }
 
+/* https://stackoverflow.com/questions/52508598/html5-video-element-on-iphone-has-border */
+video {
+  -webkit-mask-image: -webkit-radial-gradient(white, black);
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+}
+
 @media (max-width: 1000px) {
   .vertical {
     display: flex;
