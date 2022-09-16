@@ -19,6 +19,7 @@
 
 .horizontal,
 .vertical {
+  border: 0;
   display: flex;
   width: 100%;
 }
